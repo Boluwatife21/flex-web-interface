@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>practice2</title>
+        <meta charset="UTF-8">
+        <style>
+            body {
+                margin: 0%;
+            }
+            .mainbox {
+                background-color: grey;
+                display: flex;
+                width: 100vw;
+            }
+            .box {
+                text-align: center;
+                justify-content: center;
+                display: flexbox;
+                height: 33vh;
+                line-height: 33vh;
+                font-family: sans-serif;
+                font-weight: bold;
+                font-size: 1.3rem;
+                color: rgb(72, 72, 197);
+                border:3px solid rgb(0, 0, 0);
+                background-image: radial-gradient( rgb(3, 3, 73), rgb(11, 11, 34));
+            }
+            .box:hover {
+                background-image: radial-gradient( rgb(6, 6, 151), rgb(24, 24, 75));
+            }
+            .box1 {
+                 width: 33.3vw;
+            }
+            .box2 {
+                width: 33.3vw;
+            }
+            .box3 {
+                width: 33.3vw;
+            }
+            .box4 {
+                width: 50vw;
+            }
+            .box5 {
+                width: 50vw;
+            }
+            .box6 {
+                width: 100vmax;
+            }
+            a {
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="mainbox">
+            <a href=""><div class="box box1">Click Here</div></a>
+            <div class="box box2">Click Here</div>
+            <div class="box box3">Click Here</div>
+        </div>
+        <div class="mainbox">
+            <div class="box box4">Click Here</div>
+            <div class="box box5">Click Here</div>
+        </div>
+        <div class="mainbox">
+            <div class="box box6">Click Here</div>
+        </div>
+    </body>
+</html>
